@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Node / build outputs (start.sh runs the Vite dev server; dist is not used)
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# local junk
+*.log
+.DS_Store
